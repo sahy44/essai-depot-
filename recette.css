@@ -1,0 +1,193 @@
+*{
+    overflow: auto;
+}
+
+body{
+    background-color: #8bbb;
+    margin: 0;
+    font-family: arial;
+}
+.contenu{
+    background-color: #fff;
+    margin: 45px 10px 10px 10px;
+    padding: 0px 10px 20px 10px;
+    box-shadow: 2px 2px 10px 10px rgb(0, 0, 0, 0.5);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+div.categorie{
+    
+    text-align: center;
+    width: 100%;
+}
+p.categorie{
+    max-width: 400px;
+    display: inline-block;
+    font-style: bold;
+    font-size: 14px;
+}
+p.entete{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    margin-top: -15px ;
+    padding: 5px 15px;
+
+    
+}
+div.entete{
+    margin-bottom: 0px;
+    margin-top: -20px;
+    overflow: visible;
+
+}
+.separateur{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.interne{
+    position: relative;
+    
+    font-size: 15px;
+    padding-left: 0;
+    padding-bottom: 0px
+    
+}
+.image{
+    display: block;
+    max-height: 400px;
+    min-height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.table{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #6c829dc0;
+    color: #fff;
+}
+.table td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+.table th{
+    vertical-align: bottom;
+    font-size: 14px;
+    padding-bottom: 4pxpx;
+
+}   
+div.list{
+    width: 100%;
+    margin-top: 20px;
+}
+div.list h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 8px solid #6c829d;
+    border-radius: 30%;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+div.list1{
+    display: inline-block;
+    
+}
+div.list2{
+    font-size: 14px;
+}
+div.Ingredient p{
+    border: 1px solid lightgray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+p.num{
+    background-color:    #6c829d;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 0
+}
+table td{
+    vertical-align: top;
+}
+table th{
+    height: 30px;
+}
+
+
+/* pour la version ordinateur*/
+@media only screen and (min-width: 768px) {
+    .contenu{        
+        margin: 40px 10% 60px 10%;
+        padding: 0 25px 30px 25px;
+        min-width: 330px;
+    }
+    .table{
+        height: 60px;
+    }.table th{
+        font-size: 15;
+        padding-bottom: 5px;
+    }.table td{
+        font-size: 14px;
+    }
+    div.list{
+        width: 45%;
+    }
+    div.list h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 8px solid #6c829d;
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
+    
+    div.list1{
+        display: inline-block;
+        margin-right: 10%;
+    }
+    div.list2{
+        float: right;
+    }
+    div.Ingredient p{
+        border: 1px solid lightgray;
+        margin: 5px;
+        padding: 5px;
+        text-align: center
+    }
+    
+}
+/* pour gerer  l'affichage sur les grands ecrans */
+@media only screen and (min-width: 900px) {
+    div.contenu{
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+    }
+    
+}
+
+
